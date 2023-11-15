@@ -6,7 +6,7 @@ package com.mycompany.hello.world;
 
 /**
  *
- * @author marce
+ * @author marcelo abbi
  */
 public class HelloWorld {
 
@@ -30,5 +30,17 @@ public class HelloWorld {
         System.out.println(multiplicacao);
         
         System.out.println(divisao);
+        
+        boolean fimDeSemana = true;
+        boolean fazendoSol = false;
+        boolean vamosAPraia = fimDeSemana && fazendoSol;
+        
+        if(vamosAPraia){
+            System.out.println("Vamos à Praia!");
+        }else{
+            System.out.println("Não vamos à Praia :( ");
+        }
+        
+        //Tabela verdade: só pode ser verdadeiro se todos forem = true
     }
 }
